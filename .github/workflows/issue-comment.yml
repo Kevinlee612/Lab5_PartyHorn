@@ -17,8 +17,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: BeefCakee
-        uses: Marta83/funny-comment-action@v2.1
+      - name: BeefCake
+        uses: Kevinlee612/Lab5_PartyHorn@v1.0 #Marta83/funny-comment-action@v2.1
         id: FunnyComment
         with:
           GIPHY_TOKEN: ${{ secrets.GIPHY_TOKEN }}
