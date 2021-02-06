@@ -18,6 +18,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: GGnore
+        uses: Marta83/funny-comment-action@v2.1
         id: FunnyComment
         with:
           GIPHY_TOKEN: ${{ secrets.GIPHY_TOKEN }}
